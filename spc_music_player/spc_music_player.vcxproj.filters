@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="snes_spc">
+      <UniqueIdentifier>{ce4788a9-0a46-4c76-b2b8-885e851189c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="snes_spc\dsp.cpp">
+      <Filter>snes_spc</Filter>
+    </ClCompile>
+    <ClCompile Include="snes_spc\SNES_SPC.cpp">
+      <Filter>snes_spc</Filter>
+    </ClCompile>
+    <ClCompile Include="snes_spc\SNES_SPC_misc.cpp">
+      <Filter>snes_spc</Filter>
+    </ClCompile>
+    <ClCompile Include="snes_spc\SNES_SPC_state.cpp">
+      <Filter>snes_spc</Filter>
+    </ClCompile>
+    <ClCompile Include="snes_spc\spc.cpp">
+      <Filter>snes_spc</Filter>
+    </ClCompile>
+    <ClCompile Include="snes_spc\SPC_DSP.cpp">
+      <Filter>snes_spc</Filter>
+    </ClCompile>
+    <ClCompile Include="snes_spc\SPC_Filter.cpp">
+      <Filter>snes_spc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="snes_spc\blargg_endian.h">
+      <Filter>snes_spc</Filter>
+    </ClInclude>
+    <ClInclude Include="snes_spc\blargg_source.h">
+      <Filter>snes_spc</Filter>
+    </ClInclude>
+    <ClInclude Include="snes_spc\dsp.h">
+      <Filter>snes_spc</Filter>
+    </ClInclude>
+    <ClInclude Include="snes_spc\SNES_SPC.h">
+      <Filter>snes_spc</Filter>
+    </ClInclude>
+    <ClInclude Include="snes_spc\spc.h">
+      <Filter>snes_spc</Filter>
+    </ClInclude>
+    <ClInclude Include="snes_spc\SPC_CPU.h">
+      <Filter>snes_spc</Filter>
+    </ClInclude>
+    <ClInclude Include="snes_spc\SPC_DSP.h">
+      <Filter>snes_spc</Filter>
+    </ClInclude>
+    <ClInclude Include="snes_spc\SPC_Filter.h">
+      <Filter>snes_spc</Filter>
+    </ClInclude>
+    <ClInclude Include="snes_spc\blargg_common.h">
+      <Filter>snes_spc</Filter>
+    </ClInclude>
+    <ClInclude Include="snes_spc\blargg_config.h">
+      <Filter>snes_spc</Filter>
+    </ClInclude>
+    <ClInclude Include="spc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
